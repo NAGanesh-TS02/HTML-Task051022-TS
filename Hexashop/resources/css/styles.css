@@ -1,6 +1,41 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family:poppins;
     background-color: #fff;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-inline: 120px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 195px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left:20px ;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav ul li a.active{
+    color: gray;
+}
+nav ul li a:hover{
+    color: gray;
 }
